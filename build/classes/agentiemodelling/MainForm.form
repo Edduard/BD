@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPopupMenu" name="jPopupMenu1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="AddEvent" max="32767" attributes="0"/>
+                          <Component id="finishAddingEvent" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="EditEvent" min="-2" pref="95" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="FinishEditingEvent" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="deleteEvent" min="-2" pref="107" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Refresh" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Data_nastere2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Greutate2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Salariu2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Data_angajarii2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Nume2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Data_nastere3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Greutate3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Salariu3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Data_angajarii3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Nume3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AfiseazaModele" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AfiseazaEvenimente" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="SelectEventToEdit" min="-2" pref="309" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="NumeEveniment2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Data2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Editie2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Locatie2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Tip2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Parteneri2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="NumeEveniment3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Data3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Editie3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Locatie3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Tip3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Parteneri3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="NumeEveniment1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Data1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Editie1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Locatie1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Tip1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Parteneri1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Nume1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data_nastere1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Greutate1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Salariu1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Data_angajarii1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="finishAddingButton" max="32767" attributes="0"/>
+                                  <Component id="addModelButton" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="EditModel" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="FinishEditingModel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="DeleteModel" min="-2" pref="109" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="SelectModelToEdit" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="adminPanel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="534" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="addModelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SelectModelToEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="adminPanel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="finishAddingButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinishEditingModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="EditModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="DeleteModel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="AddEvent" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="finishAddingEvent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FinishEditingEvent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EditEvent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="deleteEvent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Refresh" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="SelectEventToEdit" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AfiseazaModele" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="Nume1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Data_nastere1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Greutate1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Salariu1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Data_angajarii1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Nume2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Data_nastere2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Greutate2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Salariu2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Data_angajarii2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Nume3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Data_nastere3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Greutate3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Salariu3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Data_angajarii3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NumeEveniment3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AfiseazaEvenimente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Data3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Editie3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Locatie3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Tip3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Parteneri3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NumeEveniment1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Data1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Editie1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Locatie1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Tip1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Parteneri1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NumeEveniment2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Data2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Editie2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Locatie2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Tip2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Parteneri2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="addModelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Model"/>
+        <Property name="actionCommand" type="java.lang.String" value="addModel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addModelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="finishAddingButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Finish adding"/>
+        <Property name="actionCommand" type="java.lang.String" value="finishAdding"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="finishAddingButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AddEvent">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Event"/>
+        <Property name="actionCommand" type="java.lang.String" value="addModel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddEventActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="finishAddingEvent">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Finish adding"/>
+        <Property name="actionCommand" type="java.lang.String" value="finishAdding"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="finishAddingEventActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="EditModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edit Model"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditModelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="FinishEditingModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Finish editing"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FinishEditingModelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SelectModelToEdit">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="item1, item2, item3"/>
+            <StringItem index="1" value="item4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SelectModelToEditActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="EditEvent">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edit Event"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditEventActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="FinishEditingEvent">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Finish editing"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FinishEditingEventActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SelectEventToEdit">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="item1, item2, item3"/>
+            <StringItem index="1" value="item4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SelectEventToEditActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="DeleteModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete Model"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DeleteModelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteEvent">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete Event"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteEventActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Refresh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Refresh"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RefreshActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="adminPanel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Admin Panel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adminPanelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modele"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Nume1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nume"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data_nastere1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data nasterii"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Greutate1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Greutate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Salariu1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salariu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data_angajarii1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data Angajarii"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data_angajarii2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data Angajarii"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Salariu2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salariu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Greutate2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Greutate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data_nastere2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data nasterii"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Nume2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nume"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="AfiseazaModele">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Afiseaza Modele"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AfiseazaModeleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Nume3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nume"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data_nastere3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data nasterii"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Greutate3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Greutate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Salariu3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salariu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data_angajarii3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data Angajarii"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Evenimente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="AfiseazaEvenimente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Afiseaza Evenimente"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AfiseazaEvenimenteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Tip1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tip"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Locatie1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Locatie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Editie1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Editie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NumeEveniment1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nume"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Parteneri1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parteneri"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Parteneri2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parteneri"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NumeEveniment2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nume"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Editie2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Editie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Locatie2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Locatie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Tip2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tip"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Locatie3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Locatie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Editie3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Editie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Data3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NumeEveniment3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nume"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Parteneri3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parteneri"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Tip3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tip"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Afiseaza"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Partenerii care au participat la evenimentul in care a venit modelul cel mai inalt"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
